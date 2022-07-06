@@ -1,4 +1,22 @@
-npm init vite@latest
+# A Look At Svelte
 
-https://www.piesocket.com/blog/nodejs-websocket
-https://stackoverflow.com/questions/6962658/randomize-setinterval-how-to-rewrite-same-random-after-random-interval
+This is a demo project for a brown bag presentation @ Cegeka.
+
+"A brief look at what my team and I had learned about Svelte during Exploration Days 2022 at Cegeka."
+
+## ▶️ How to Run
+
+Running the Svelte frontend:
+
+`npm run frontend`
+
+Running the NodeJs backend that provides websocket events:
+
+`npm run backend` (in the backend folder)
+
+## 📝 Some notes
+
+`npm init vite@latest`
+
+- https://www.piesocket.com/blog/nodejs-websocket
+- https://stackoverflow.com/questions/6962658/randomize-setinterval-how-to-rewrite-same-random-after-random-interval
