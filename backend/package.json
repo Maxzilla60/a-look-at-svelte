@@ -1,0 +1,14 @@
+{
+	"name": "a-look-at-svelte-backend",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"backend": "node index.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"ws": "^8.8.0"
+	}
+}
