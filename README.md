@@ -20,3 +20,4 @@ Running the NodeJs backend that provides websocket events:
 
 - https://www.piesocket.com/blog/nodejs-websocket
 - https://stackoverflow.com/questions/6962658/randomize-setinterval-how-to-rewrite-same-random-after-random-interval
+- https://www.reddit.com/r/sveltejs/comments/g24j45/is_svelte_good_for_building_enterprise_app/
