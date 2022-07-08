@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { cheeseCount$ } from '../shared/cheese';
+	import { cheeseCount$ } from '../services/cheese';
 
 	function oneMoreCheese(): void {
 		cheeseCount$.update(prev => prev + 1);

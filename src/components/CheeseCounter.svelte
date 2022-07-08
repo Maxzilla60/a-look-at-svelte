@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { cheeseCount$ } from '../shared/cheese';
+	import { cheeseCount$ } from '../services/cheese';
 
 	let count = 0;
 	cheeseCount$.subscribe(newCount => count = newCount);

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { fruit$, openMarket, socketConnected$ } from '../shared/websocket';
+	import { fruit$, openMarket, socketConnected$ } from '../services/websocket';
 	import { writable } from 'svelte/store';
 	import BouncyFruit from './BouncyFruit.svelte';
 
