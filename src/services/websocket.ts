@@ -1,4 +1,5 @@
 import { writable } from 'svelte/store';
+import { onCloseAndError, onMessage, onOpen } from "./websocketHelpers";
 
 export interface Fruit {
 	fruit?: 'banana' | 'kiwi' | 'tomato';
@@ -21,29 +22,4 @@ export function openMarket(): void {
 		const fruit = JSON.parse(event.data) as Fruit;
 		fruit$.set(fruit);
 	});
-
-	function onMessage(webSocket: WebSocket, listener: (event: MessageEvent<any>) => void): void {
-		webSocket.addEventListener('message', event => {
-			console.log(event.data);
-			listener(event);
-		});
-	}
-
-	function onOpen(webSocket: WebSocket, listener: () => void): void {
-		webSocket.addEventListener('open', () => {
-			console.log("WebSocket open!");
-			listener();
-		});
-	}
-
-	function onCloseAndError(webSocket: WebSocket, listener: () => void): void {
-		webSocket.addEventListener('close', event => {
-			console.log("WebSocket closed!", event);
-			listener();
-		});
-		webSocket.addEventListener('error', event => {
-			console.log("WebSocket closed!", event);
-			listener();
-		});
-	}
 }
