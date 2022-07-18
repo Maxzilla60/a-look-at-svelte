@@ -5,6 +5,10 @@ export interface Fruit {
 	fruit?: 'banana' | 'kiwi' | 'tomato';
 }
 
+// { "fruit": "banana" }
+// { "fruit": "kiwi" }
+// { "fruit": "tomato" }
+
 export const fruit$ = writable<Fruit>();
 export const socketConnected$ = writable<boolean>(false);
 
