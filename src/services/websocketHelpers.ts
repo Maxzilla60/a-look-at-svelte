@@ -7,18 +7,18 @@ export function onMessage(webSocket: WebSocket, listener: (event: MessageEvent<a
 
 export function onOpen(webSocket: WebSocket, listener: () => void): void {
 	webSocket.addEventListener('open', () => {
-		console.log("WebSocket open!");
+		console.log('WebSocket open!');
 		listener();
 	});
 }
 
 export function onCloseAndError(webSocket: WebSocket, listener: () => void): void {
 	webSocket.addEventListener('close', event => {
-		console.log("WebSocket closed!", event);
+		console.log('WebSocket closed!', event);
 		listener();
 	});
 	webSocket.addEventListener('error', event => {
-		console.log("WebSocket closed!", event);
+		console.log('WebSocket closed!', event);
 		listener();
 	});
 }

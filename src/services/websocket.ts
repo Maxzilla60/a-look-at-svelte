@@ -1,5 +1,5 @@
 import { writable } from 'svelte/store';
-import { onCloseAndError, onMessage, onOpen } from "./websocketHelpers";
+import { onCloseAndError, onMessage, onOpen } from './websocketHelpers';
 
 export interface Fruit {
 	fruit?: 'banana' | 'kiwi' | 'tomato';
