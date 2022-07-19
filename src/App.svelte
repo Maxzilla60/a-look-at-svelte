@@ -1,8 +1,8 @@
 <script lang="ts">
 	import FruitSocket from './components/FruitSocket.svelte';
 	import PotatoCounter from './components/PotatoCounter.svelte';
-	import CheeseCounter from './components/CheeseCounter.svelte';
-	import CheeseButtons from './components/CheeseButtons.svelte';
+	import PizzaCounter from './components/PizzaCounter.svelte';
+	import PizzaButtons from './components/PizzaButtons.svelte';
 </script>
 
 <main>
@@ -13,8 +13,8 @@
 
 	<br/>
 
-	<CheeseButtons/>
-	<CheeseCounter/>
+	<PizzaButtons/>
+	<PizzaCounter/>
 
 	<br/>
 
