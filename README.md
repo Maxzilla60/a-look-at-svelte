@@ -4,6 +4,10 @@ This is a demo project for a brown bag presentation @ Cegeka.
 
 "A brief look at what my team and I had learned about Svelte during Exploration Days 2022 at Cegeka."
 
+<a href="https://gitmoji.dev">
+  <img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square" alt="Gitmoji">
+</a>
+
 ## ▶️ How to Run
 
 Running the Svelte frontend:
